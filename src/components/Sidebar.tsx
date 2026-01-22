@@ -56,12 +56,21 @@ export function Sidebar() {
 
     return (
         <aside className="sidebar">
-            {/* Header */}
             <div className="sidebar-header">
-                <div className="flex items-center justify-center w-8 h-8 rounded bg-indigo-600 mr-3 text-white font-bold">
-                    C
+                <div className="flex items-center justify-center w-10 h-10 rounded-lg mr-3" style={{
+                    background: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%)',
+                    boxShadow: '0 2px 8px rgba(99, 102, 241, 0.3)'
+                }}>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <rect x="2" y="5" width="20" height="14" rx="2" />
+                        <path d="M2 10h20" />
+                        <circle cx="12" cy="15" r="2" fill="white" />
+                    </svg>
                 </div>
-                <span className="font-bold text-lg text-white">Cashlog</span>
+                <div className="flex flex-col">
+                    <span className="font-bold text-xl text-white tracking-tight">Cashlog</span>
+                    <span className="text-xs" style={{ color: 'rgba(255, 255, 255, 0.5)', marginTop: '-2px' }}>Finance Tracker</span>
+                </div>
             </div>
 
             {/* Nav */}

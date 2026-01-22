@@ -131,23 +131,43 @@ export default function Dashboard() {
                 </div>
             )}
 
-            <div className="grid-2">
-                <div className="card">
-                    <h2 className="text-xl font-bold mb-4">{t('dashboard.quickActions')}</h2>
-                    <div className="flex flex-col gap-2">
-                        <a href="#/transactions" className="btn btn-tertiary w-full justify-between">
-                            <span>{t('dashboard.viewTransactions')}</span>
-                            <span>→</span>
-                        </a>
-                    </div>
-                </div>
 
-                <div className="card flex flex-col justify-center items-center text-center cursor-pointer hover:bg-input transition-colors">
-                    <div className="mb-4 text-tertiary">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-                    </div>
-                    <h3 className="text-lg font-bold">{t('dashboard.addWidget')}</h3>
-                    <p className="text-tertiary text-sm">{t('dashboard.customizeLayout')}</p>
+            <div className="card">
+                <h2 className="text-xl font-bold mb-6">{t('dashboard.quickActions')}</h2>
+                <div className="grid grid-cols-2 gap-3">
+                    <a href="#/transactions" className="flex flex-col items-center gap-2 p-4 rounded-lg border border-border-color hover:border-text-secondary hover:bg-surface-active transition-all">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                            <polyline points="14 2 14 8 20 8" />
+                            <line x1="16" y1="13" x2="8" y2="13" />
+                            <line x1="16" y1="17" x2="8" y2="17" />
+                        </svg>
+                        <span className="text-sm font-medium">{t('sidebar.transactions')}</span>
+                    </a>
+
+                    <a href="#/bills" className="flex flex-col items-center gap-2 p-4 rounded-lg border border-border-color hover:border-text-secondary hover:bg-surface-active transition-all">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <rect x="2" y="5" width="20" height="14" rx="2" />
+                            <line x1="2" y1="10" x2="22" y2="10" />
+                        </svg>
+                        <span className="text-sm font-medium">{t('sidebar.bills')}</span>
+                    </a>
+
+                    <a href="#/wallets" className="flex flex-col items-center gap-2 p-4 rounded-lg border border-border-color hover:border-text-secondary hover:bg-surface-active transition-all">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <rect x="2" y="6" width="20" height="12" rx="2" />
+                            <circle cx="12" cy="12" r="2" />
+                        </svg>
+                        <span className="text-sm font-medium">{t('sidebar.wallets')}</span>
+                    </a>
+
+                    <a href="#/cashflow" className="flex flex-col items-center gap-2 p-4 rounded-lg border border-border-color hover:border-text-secondary hover:bg-surface-active transition-all">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+                            <polyline points="17 6 23 6 23 12" />
+                        </svg>
+                        <span className="text-sm font-medium">{t('cashflow.title')}</span>
+                    </a>
                 </div>
             </div>
         </div>
