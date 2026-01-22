@@ -1,0 +1,143 @@
+{
+    "sidebar": {
+        "dashboard": "Dashboard",
+        "transactions": "Transactions",
+        "bills": "Bills",
+        "wallets": "Wallets",
+        "categories": "Categories",
+        "settings": "Settings",
+        "overview": "Overview",
+        "finance": "Finance",
+        "system": "System"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "subtitle": "Overview of your financial health",
+        "balance": "Net Balance",
+        "income": "Total Income",
+        "expenses": "Total Expenses",
+        "thisMonth": "This Month",
+        "downloadReport": "Download Report",
+        "quickActions": "Quick Actions",
+        "viewTransactions": "View All Transactions",
+        "addWidget": "Add Widget",
+        "customizeLayout": "Customize your dashboard layout",
+        "fromLastMonth": "from last month",
+        "balanceTrend": "Balance Trend",
+        "spendingByCategory": "Spending by Category"
+    },
+    "transactions": {
+        "title": "Transactions",
+        "subtitle": "Track your income and expenses",
+        "add": "Add Transaction",
+        "filterAll": "All",
+        "filterIncome": "Income",
+        "filterExpense": "Expense",
+        "table": {
+            "date": "Date",
+            "description": "Description",
+            "amount": "Amount",
+            "category": "Category",
+            "type": "Type"
+        },
+        "form": {
+            "title": "Add Transaction",
+            "income": "Income",
+            "expense": "Expense",
+            "amount": "Amount",
+            "description": "Description",
+            "date": "Transaction Date",
+            "cancel": "Cancel",
+            "save": "Save Transaction",
+            "edit": "Edit Transaction"
+        }
+    },
+    "wallets": {
+        "title": "Wallets",
+        "subtitle": "Manage your accounts",
+        "add": "Add Wallet",
+        "totalBalance": "Total Balance",
+        "form": {
+            "title": "New Wallet",
+            "name": "Name",
+            "type": "Type",
+            "cash": "Cash",
+            "bank": "Bank Account",
+            "credit": "Credit Card",
+            "initialBalance": "Initial Balance",
+            "currency": "Currency",
+            "cancel": "Cancel",
+            "save": "Save"
+        }
+    },
+    "bills": {
+        "title": "Bills & Loans",
+        "subtitle": "Manage recurring payments and loans",
+        "add": "Add Bill/Loan",
+        "paid": "Paid",
+        "pending": "Pending",
+        "markPaid": "Mark Paid",
+        "due": "Due day",
+        "empty": "No items found.",
+        "form": {
+            "title": "New Item",
+            "isLoan": "Is this a Loan?",
+            "name": "Name",
+            "description": "Description (Optional)",
+            "amount": "Monthly Amount",
+            "dueDay": "Due Day (1-31)",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "installments": "Total Installments",
+            "cancel": "Cancel",
+            "save": "Save"
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "subtitle": "Manage application preferences",
+        "language": "Language",
+        "selectLanguage": "Select Language",
+        "currency": "Currency",
+        "selectCurrency": "Select Currency"
+    },
+    "categories": {
+        "title": "Categories",
+        "subtitle": "Manage transaction categories",
+        "add": "Add Category",
+        "edit": "Edit",
+        "delete": "Delete",
+        "empty": "No categories found.",
+        "form": {
+            "title": "Category",
+            "name": "Name",
+            "type": "Type",
+            "income": "Income",
+            "expense": "Expense",
+            "color": "Color",
+            "cancel": "Cancel",
+            "save": "Save"
+        }
+    },
+    "calendar": {
+        "title": "Financial Calendar",
+        "subtitle": "View your month"
+    },
+    "cashflow": {
+        "title": "Cash Flow",
+        "subtitle": "Monthly balance analysis and planning",
+        "currentMonth": "Current Month",
+        "startingBalance": "Starting Balance",
+        "projectedEnding": "Projected Ending",
+        "tightestDay": "Tightest Day",
+        "actual": "Actual",
+        "today": "Today",
+        "projected": "Projected",
+        "transactions": "Transactions",
+        "projectedBills": "Projected Bills",
+        "criticalWarning": "Critical: Balance Alert",
+        "negativeBalance": "Balance will be negative on this day",
+        "lowBalance": "Balance will be critically low",
+        "daysUntilIncome": "days until next income"
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "sidebar": {
+        "dashboard": "Kontrol Paneli",
+        "transactions": "İşlemler",
+        "bills": "Faturalar",
+        "wallets": "Cüzdanlar",
+        "categories": "Kategoriler",
+        "settings": "Ayarlar",
+        "overview": "Genel Bakış",
+        "finance": "Finans",
+        "system": "Sistem"
+    },
+    "dashboard": {
+        "title": "Kontrol Paneli",
+        "subtitle": "Finansal durumunuza genel bakış",
+        "balance": "Net Bakiye",
+        "income": "Toplam Gelir",
+        "expenses": "Toplam Gider",
+        "thisMonth": "Bu Ay",
+        "downloadReport": "Rapor İndir",
+        "quickActions": "Hızlı İşlemler",
+        "viewTransactions": "Tüm İşlemleri Gör",
+        "addWidget": "Widget Ekle",
+        "customizeLayout": "Panel düzenini özelleştir",
+        "fromLastMonth": "geçen aydan",
+        "balanceTrend": "Bakiye Trendi",
+        "spendingByCategory": "Kategori Dağılımı"
+    },
+    "transactions": {
+        "title": "İşlemler",
+        "subtitle": "Gelir ve giderlerinizi takip edin",
+        "add": "İşlem Ekle",
+        "filterAll": "Tümü",
+        "filterIncome": "Gelir",
+        "filterExpense": "Gider",
+        "table": {
+            "date": "Tarih",
+            "description": "Açıklama",
+            "amount": "Tutar",
+            "category": "Kategori",
+            "type": "Tip"
+        },
+        "form": {
+            "title": "İşlem Ekle",
+            "income": "Gelir",
+            "expense": "Gider",
+            "amount": "Tutar",
+            "description": "Açıklama",
+            "date": "İşlem Tarihi",
+            "cancel": "İptal",
+            "save": "Kaydet",
+            "edit": "İşlemi Düzenle"
+        }
+    },
+    "wallets": {
+        "title": "Cüzdanlar",
+        "subtitle": "Hesaplarınızı yönetin",
+        "add": "Cüzdan Ekle",
+        "totalBalance": "Toplam Bakiye",
+        "form": {
+            "title": "Yeni Cüzdan",
+            "name": "İsim",
+            "type": "Tip",
+            "cash": "Nakit",
+            "bank": "Banka Hesabı",
+            "credit": "Kredi Kartı",
+            "initialBalance": "Açılış Bakiyesi",
+            "currency": "Para Birimi",
+            "cancel": "İptal",
+            "save": "Kaydet"
+        }
+    },
+    "bills": {
+        "title": "Faturalar & Krediler",
+        "subtitle": "Düzenli ödemeleri ve kredileri yönetin",
+        "add": "Ekle",
+        "paid": "Ödendi",
+        "pending": "Bekliyor",
+        "markPaid": "Öde",
+        "due": "Son gün",
+        "empty": "Kayıt bulunamadı.",
+        "form": {
+            "title": "Yeni Kayıt",
+            "isLoan": "Kredi mi?",
+            "name": "İsim",
+            "description": "Açıklama (İsteğe bağlı)",
+            "amount": "Aylık Tutar",
+            "dueDay": "Ödeme Günü (1-31)",
+            "startDate": "Başlangıç Tarihi",
+            "endDate": "Bitiş Tarihi",
+            "installments": "Toplam Taksit",
+            "cancel": "İptal",
+            "save": "Kaydet"
+        }
+    },
+    "settings": {
+        "title": "Ayarlar",
+        "subtitle": "Uygulama tercihlerini yönetin",
+        "language": "Dil",
+        "selectLanguage": "Dil Seçin",
+        "currency": "Para Birimi",
+        "selectCurrency": "Para Birimi Seçin"
+    },
+    "categories": {
+        "title": "Kategoriler",
+        "subtitle": "İşlem kategorilerini yönetin",
+        "add": "Kategori Ekle",
+        "edit": "Düzenle",
+        "delete": "Sil",
+        "empty": "Kategori bulunamadı.",
+        "form": {
+            "title": "Kategori",
+            "name": "İsim",
+            "type": "Tip",
+            "income": "Gelir",
+            "expense": "Gider",
+            "color": "Renk",
+            "cancel": "İptal",
+            "save": "Kaydet"
+        }
+    },
+    "calendar": {
+        "title": "Finansal Takvim",
+        "subtitle": "Aylık genel bakış"
+    },
+    "cashflow": {
+        "title": "Nakit Akışı",
+        "subtitle": "Aylık bakiye analizi ve planlama",
+        "currentMonth": "Bu Ay",
+        "startingBalance": "Başlangıç Bakiyesi",
+        "projectedEnding": "Tahmini Son Bakiye",
+        "tightestDay": "En Kritik Gün",
+        "actual": "Gerçek",
+        "today": "Bugün",
+        "projected": "Tahmin",
+        "transactions": "İşlemler",
+        "projectedBills": "Planlanan Faturalar",
+        "criticalWarning": "Kritik: Bakiye Uyarısı",
+        "negativeBalance": "Bu gün bakiye eksi olacak",
+        "lowBalance": "Bakiye kritik seviyede düşük olacak",
+        "daysUntilIncome": "gün sonra gelir girecek"
+    }
+}
